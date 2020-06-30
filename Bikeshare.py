@@ -22,7 +22,7 @@ def get_filters():
     while True:
         city = input("Please print name of city Washington, New York City, or Chicago: ").lower()
         if city not in CITY_DATA:
-            print("Please try again not a valid answer")
+            print("Invalid Answer. Please print the name of the city again.")
             continue
         else:
             break
@@ -54,7 +54,7 @@ def get_filters():
             break
 
         else:
-            input("Invalid input please provide month, day, all or none")
+            input("Invalid Answer. Please print the month, day, all or none.")
             break
 
     print(city)
