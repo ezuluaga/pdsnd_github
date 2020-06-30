@@ -13,4 +13,4 @@ new_york.csv
 Chicago.csv
 
 ### Credits
-All the Udacity Resources.
+All the Udacity lessons and resources!
